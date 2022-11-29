@@ -95,10 +95,17 @@ main {
     text-align: center;
 }
 
+#mission p {
+    font-size: 1.5rem;
+    width: 50%;
+    line-height: 2.25rem;
+    text-align: justify;
+}
+
 #mission,
 #methods,
 #info {
-    min-height: 50vh;
+    padding-top: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,6 +120,31 @@ main {
     font-size: 5rem;
 }
 
+.grid {
+    gap: 1rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 30%;
+    padding: 1.5rem;
+    box-shadow: 0 0 0.25rem black;
+}
+
+#info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
 footer {
     height: 3rem;
     background-color: var(--color);
@@ -123,4 +155,5 @@ footer {
     align-items: center;
     color: white;
     font-size: 1.25rem;
+    margin-top: 7rem;
 }
