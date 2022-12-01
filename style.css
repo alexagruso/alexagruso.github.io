@@ -97,7 +97,7 @@ main {
     text-align: center;
 }
 
-#mission p {
+#mission p, #methods > p {
     font-size: 1.5rem;
     width: 50%;
     line-height: 2.25rem;
