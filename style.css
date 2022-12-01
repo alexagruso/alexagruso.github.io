@@ -20,6 +20,7 @@ html {
 nav .title {
     font-size: 3rem;
     font-weight: 700;
+    transform: skewX(-8deg);
 }
 
 nav {
@@ -121,9 +122,15 @@ main {
     font-size: 5rem;
 }
 
+#info li {
+    font-size: 1.5rem;
+    max-width: 50vw;
+    line-height: 2rem;
+}
+
 .grid {
     gap: 3rem;
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -148,12 +155,13 @@ main {
 
 .card p {
     text-align: justify;
-    font-size: 1.25rem;
-    padding: 1.5rem;
+    font-size: 1.5rem;
+    padding: 3rem;
+    line-height: 2.25rem;
 }
 
 .card h1 {
-    font-size: 1.75rem !important;
+    font-size: 3rem !important;
     text-align: center;
     align-self: center;
     filter: invert(100%);
